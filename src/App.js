@@ -6,6 +6,13 @@ function App() {
 
   useEffect (() => {
     document.querySelector('.body').classList.add('loaded');
+    document.addEventListener('keydown', function(e) {
+      e.preventDefault();
+    });
+
+    return () => {
+      document.removeEventListener('keydown');
+    }
   }, [])
 
   return (
