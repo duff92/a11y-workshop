@@ -13,3 +13,11 @@
   }
 }
 
+body {
+  pointer-events: none;
+}
+
+*,
+*:hover {
+  cursor: none;
+}
