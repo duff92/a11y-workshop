@@ -5,3 +5,11 @@
 *:focus {
   outline: none !important;
 }
+
+@media screen and (-ms-high-contrast: active) {
+  /* High contrast styling rules */
+  * {
+    color: window !important;
+  }
+}
+
