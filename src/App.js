@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 function App() {
 
 
+  useEffect (() => {
+    document.querySelector('.body').classList.add('loaded');
+  }, [])
+
   return (
-    <div className="body loaded" hidden>
+    <div className="body" hidden>
       <h1>100% accessible</h1>
       <p>
         <a href="https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/" rel="noopener">Read the article</a>
