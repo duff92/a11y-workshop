@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="body loaded" hidden>
       <h1>100% accessible</h1>
       <p>
         <a href="https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/" rel="noopener">Read the article</a>
