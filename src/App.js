@@ -9,8 +9,8 @@ function App() {
     <div>
       <header>
         <div className="navbar navbar-dark bg-dark">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <img src={logo} width="30" height="30"/>
+          <a href="/" class="navbar-brand d-flex align-items-center">
+            <img src={logo} width="30" height="30" alt="logo"/>
             Hyper Island
           </a>
         </div>
@@ -24,8 +24,8 @@ function App() {
           Discover how to anticipate and adapt to the latest trends and digital technology to make real progress in your career and accelerate business transformation.
           </p>
           <p>
-            <a href="#" className="btn btn-primary m-2">Main action</a>
-            <a href="#" className="btn btn-secondary m-2">Secondary action</a>
+            <a href="/" className="btn btn-primary m-2">Main action</a>
+            <a href="/" className="btn btn-secondary m-2">Secondary action</a>
           </p>
         </div>
         <GoogleMapExample />
