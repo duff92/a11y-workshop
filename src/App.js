@@ -9,7 +9,7 @@ function App() {
     <div>
       <header>
         <div className="navbar navbar-dark bg-dark">
-          <a href="#" class="navbar-brand d-flex align-items-center">
+          <a href="#" className="navbar-brand d-flex align-items-center">
             <img src={logo} width="30" height="30"/>
             Hyper Island
           </a>
