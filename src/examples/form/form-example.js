@@ -3,10 +3,11 @@ import React from 'react';
 function FormExample() {
   return (
     <div>
-      <h3>Contact form</h3>
+      <h2>Contact form</h2>
       <form>
         <div className="form-group">
-          <input type="email" placeholder="Your email"/>
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" placeholder="Your email"/>
         </div>
         <button className="btn btn-primary" type="submit">Subscribe</button>
       </form>

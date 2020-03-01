@@ -15,7 +15,7 @@ function App() {
           </a>
         </div>
       </header>
-      <div className="d-flex flex-column align-items-center container">
+      <main className="d-flex flex-column align-items-center container">
         <div className="jumbotron text-center">
           <h1 className="jumotron-heading">
             Choose your tomorrow
@@ -29,7 +29,7 @@ function App() {
           </p>
         </div>
         <GoogleMapExample />
-      </div>
+      </main>
       <footer className="d-flex mt-4 py-4 bg-light flex-column align-items-center">
         <div>
           <FormExample />
